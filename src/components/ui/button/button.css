@@ -1,0 +1,57 @@
+.button {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: none;
+  background-color: transparent;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.primary {
+  border-radius: 15px;
+  background-color: rgb(66, 66, 248);
+}
+.primary:hover {
+  color: blue;
+  border: solid 1px blue;
+  background-color: rgb(224, 224, 239);
+}
+
+.secondary {
+  color: aliceblue;
+  border-radius: 15px;
+  background-color: rgb(246, 26, 18);
+}
+.secondary:hover {
+  border: solid 1px red;
+  color: black;
+  background-color: #fbfffc;
+}
+
+.thirdary {
+  border-radius: 15px;
+  background-color: rgb(233, 133, 34);
+}
+.thirdary:hover {
+  border: solid 1px black;
+  background-color: rgb(255, 208, 0);
+}
+.fourth {
+  border-radius: 15px;
+  background-color: rgb(10, 10, 9);
+}
+.fourth:hover {
+  background-color: rgba(210, 20, 20, 0.931);
+}
+.five {
+  border-radius: 15px;
+  background-color: cadetblue;
+}
+.five:hover {
+  background-color: burlywood;
+}
